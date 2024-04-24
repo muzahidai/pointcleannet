@@ -27,6 +27,11 @@ pip install tensorboardX
 ```
 conda install pytorch==1.7.0 torchvision==0.8.0 torchaudio==0.7.0 cudatoolkit=11.0 -c pytorch
 ```
+Make sure torch.cuda is available now. Write following syntax in python, if ouput is "True" then ok
+```
+import torch
+torch.cuda.is_available()
+```
 Clone this repository:
 ``` bash
 git clone https://github.com/mrakotosaon/pointcleannet.git
