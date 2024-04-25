@@ -17,7 +17,8 @@ This code was written by [Marie-Julie Rakotosaona](http://www.lix.polytechnique.
 ## Setup
 Install required python packages, if they are not already installed ([tensorboardX](https://github.com/lanpa/tensorboard-pytorch) is only required for training):
 ```
-conda create -n pointcleannet python=3.7
+conda create -n pointcleannet python=3.7 
+conda activate pointcleannet
 ```
 ``` 
 pip install numpy
